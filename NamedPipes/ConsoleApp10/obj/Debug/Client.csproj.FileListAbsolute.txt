@@ -1,0 +1,10 @@
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\bin\Debug\Bridaage.dll
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\bin\Debug\Bridaage.pdb
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\obj\Debug\Client.csproj.CopyComplete
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\bin\Debug\Client.exe.config
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\bin\Debug\Client.exe
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\bin\Debug\Client.pdb
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\obj\Debug\Client.exe
+C:\Users\wiyan\source\repos\ConsoleApp10\ConsoleApp10\obj\Debug\Client.pdb

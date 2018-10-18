@@ -1,0 +1,10 @@
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\bin\Debug\Server.exe.config
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\bin\Debug\Server.exe
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\bin\Debug\Server.pdb
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\obj\Debug\Server.exe
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\obj\Debug\Server.pdb
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\bin\Debug\Bridge.dll
+C:\Users\wiyan\source\repos\ConsoleApp10\Server\bin\Debug\Bridge.pdb

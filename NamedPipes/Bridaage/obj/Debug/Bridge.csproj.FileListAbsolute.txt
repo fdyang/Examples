@@ -1,0 +1,5 @@
+C:\Users\wiyan\source\repos\ConsoleApp10\Bridaage\obj\Debug\Bridge.csproj.CoreCompileInputs.cache
+C:\Users\wiyan\source\repos\ConsoleApp10\Bridaage\bin\Debug\Bridge.dll
+C:\Users\wiyan\source\repos\ConsoleApp10\Bridaage\bin\Debug\Bridge.pdb
+C:\Users\wiyan\source\repos\ConsoleApp10\Bridaage\obj\Debug\Bridge.dll
+C:\Users\wiyan\source\repos\ConsoleApp10\Bridaage\obj\Debug\Bridge.pdb
