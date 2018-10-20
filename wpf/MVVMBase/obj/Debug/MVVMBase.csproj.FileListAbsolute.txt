@@ -1,0 +1,5 @@
+C:\Users\wiyan\WillGitHub\WPF\MVVMBase\obj\Debug\MVVMBase.csproj.CoreCompileInputs.cache
+C:\Users\wiyan\WillGitHub\WPF\MVVMBase\bin\Debug\MVVMBase.dll
+C:\Users\wiyan\WillGitHub\WPF\MVVMBase\bin\Debug\MVVMBase.pdb
+C:\Users\wiyan\WillGitHub\WPF\MVVMBase\obj\Debug\MVVMBase.dll
+C:\Users\wiyan\WillGitHub\WPF\MVVMBase\obj\Debug\MVVMBase.pdb
