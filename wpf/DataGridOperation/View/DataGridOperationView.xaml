@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="DataGridOperation.View.DataGridOperationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DataGridOperation.View"
+             xmlns:vm="clr-namespace:DataGridOperation.ViewModel"
+             mc:Ignorable="d"
+             d:DesignWidth="600"
+             Height="129.75">
+    <UserControl.DataContext>
+        <vm:DataGridOperationViewModel />
+    </UserControl.DataContext>
+    <Grid Margin="0,0,0,10">
+        <DataGrid HorizontalAlignment="Left"
+                  Width="471"
+                  ItemsSource="{Binding Table}"
+                  Height="115"
+                  VerticalAlignment="Top" />
+        <Button Content="Load"
+                HorizontalAlignment="Left"
+                Margin="498,10,0,0"
+                VerticalAlignment="Top"
+                Width="75"
+                Command="{Binding RunLoadCommand}" />
+        <Button Content="Add"
+                HorizontalAlignment="Left"
+                Margin="499,52,0,0"
+                VerticalAlignment="Top"
+                Width="74" />
+        <Button Content="Delete"
+                HorizontalAlignment="Left"
+                Margin="499,95,0,0"
+                VerticalAlignment="Top"
+                Width="75" />
+
+    </Grid>
+</UserControl>
