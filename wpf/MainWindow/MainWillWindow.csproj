@@ -98,6 +98,10 @@
       <Project>{9A130619-49B5-4ACD-8F7E-482FBC8118F0}</Project>
       <Name>DataGridOperation</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataTimePicker\EnhancedUserControl.csproj">
+      <Project>{449F961A-B985-410B-882B-61D87275675B}</Project>
+      <Name>EnhancedUserControl</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FolderBrowser\FolderBrowser.csproj">
       <Project>{7aa5c571-9735-4f6c-95a7-1d7ccca4de98}</Project>
       <Name>FolderBrowser</Name>

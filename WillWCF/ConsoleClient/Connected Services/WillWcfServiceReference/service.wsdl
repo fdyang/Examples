@@ -6,22 +6,22 @@
       <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="IWillWcfService_GetData_InputMessage">
-    <wsdl:part name="parameters" element="tns:GetData" />
+  <wsdl:message name="IWillWcfService_GetWillMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetWillMessage" />
   </wsdl:message>
-  <wsdl:message name="IWillWcfService_GetData_OutputMessage">
-    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  <wsdl:message name="IWillWcfService_GetWillMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetWillMessageResponse" />
   </wsdl:message>
   <wsdl:portType name="IWillWcfService">
-    <wsdl:operation name="GetData">
-      <wsdl:input wsaw:Action="http://tempuri.org/IWillWcfService/GetData" message="tns:IWillWcfService_GetData_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IWillWcfService/GetDataResponse" message="tns:IWillWcfService_GetData_OutputMessage" />
+    <wsdl:operation name="GetWillMessage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IWillWcfService/GetWillMessage" message="tns:IWillWcfService_GetWillMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IWillWcfService/GetWillMessageResponse" message="tns:IWillWcfService_GetWillMessage_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IWillWcfService" type="tns:IWillWcfService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="GetData">
-      <soap:operation soapAction="http://tempuri.org/IWillWcfService/GetData" style="document" />
+    <wsdl:operation name="GetWillMessage">
+      <soap:operation soapAction="http://tempuri.org/IWillWcfService/GetWillMessage" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

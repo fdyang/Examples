@@ -15,11 +15,11 @@ namespace ConsoleClient.WillWcfServiceReference {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="WillWcfServiceReference.IWillWcfService")]
     public interface IWillWcfService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWillWcfService/GetData", ReplyAction="http://tempuri.org/IWillWcfService/GetDataResponse")]
-        string GetData(int value);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWillWcfService/GetWillMessage", ReplyAction="http://tempuri.org/IWillWcfService/GetWillMessageResponse")]
+        string GetWillMessage(int value);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWillWcfService/GetData", ReplyAction="http://tempuri.org/IWillWcfService/GetDataResponse")]
-        System.Threading.Tasks.Task<string> GetDataAsync(int value);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWillWcfService/GetWillMessage", ReplyAction="http://tempuri.org/IWillWcfService/GetWillMessageResponse")]
+        System.Threading.Tasks.Task<string> GetWillMessageAsync(int value);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -49,12 +49,12 @@ namespace ConsoleClient.WillWcfServiceReference {
                 base(binding, remoteAddress) {
         }
         
-        public string GetData(int value) {
-            return base.Channel.GetData(value);
+        public string GetWillMessage(int value) {
+            return base.Channel.GetWillMessage(value);
         }
         
-        public System.Threading.Tasks.Task<string> GetDataAsync(int value) {
-            return base.Channel.GetDataAsync(value);
+        public System.Threading.Tasks.Task<string> GetWillMessageAsync(int value) {
+            return base.Channel.GetWillMessageAsync(value);
         }
     }
 }

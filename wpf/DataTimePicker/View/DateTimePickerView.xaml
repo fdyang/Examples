@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="EnhancedUserControl.View.DateTimePickerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:EnhancedUserControl"
+             xmlns:vm="clr-namespace:EnhancedUserControl.ViewModel"
+             mc:Ignorable="d"
+             d:DesignHeight="24"
+             d:DesignWidth="100">
+    <UserControl.DataContext>
+        <vm:DateTimePickerViewModel />
+    </UserControl.DataContext>
+    <Grid>
+        <DatePicker HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    Height="auto"
+                    Width="auto"
+                    SelectedDate="{Binding SelectedDateTime}"/>
+
+    </Grid>
+</UserControl>

@@ -10,9 +10,9 @@ namespace WcfServiceLibrary
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
     public class WillWcfService : IWillWcfService
     {
-        public string GetData(int value)
+        public string GetWillMessage(int value)
         {
-            return string.Format("You entered: {0}", value);
+            return string.Format("Will said: {0}", --value);
         }
     }
 }

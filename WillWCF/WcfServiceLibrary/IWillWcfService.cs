@@ -12,6 +12,6 @@ namespace WcfServiceLibrary
     public interface IWillWcfService
     {
         [OperationContract]
-        string GetData(int value);
+        string GetWillMessage(int value);
     }
 }

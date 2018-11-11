@@ -15,7 +15,7 @@
         <DataGrid HorizontalAlignment="Left"
                   Width="471"
                   ItemsSource="{Binding Table}"
-                  Height="115"
+                  Height="120"
                   VerticalAlignment="Top" />
         <Button Content="Load"
                 HorizontalAlignment="Left"

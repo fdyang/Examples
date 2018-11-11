@@ -18,7 +18,8 @@
                    Text="Log Path:"
                    VerticalAlignment="Top"
                    Height="24" />
-        <TextBox HorizontalAlignment="Left"
+        <TextBox Name="TextBoxLogPath" 
+                HorizontalAlignment="Left"
                  Height="20"
                  Margin="64,9,0,0"
                  TextWrapping="Wrap"

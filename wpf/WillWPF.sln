@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderBrowser", "FolderBrow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterProcessSync", "InterProcessSync\InterProcessSync.csproj", "{BD0E86D5-D831-462F-9C06-6EEAE11BA11B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedUserControl", "DataTimePicker\EnhancedUserControl.csproj", "{449F961A-B985-410B-882B-61D87275675B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BD0E86D5-D831-462F-9C06-6EEAE11BA11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD0E86D5-D831-462F-9C06-6EEAE11BA11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD0E86D5-D831-462F-9C06-6EEAE11BA11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{449F961A-B985-410B-882B-61D87275675B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449F961A-B985-410B-882B-61D87275675B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449F961A-B985-410B-882B-61D87275675B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449F961A-B985-410B-882B-61D87275675B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

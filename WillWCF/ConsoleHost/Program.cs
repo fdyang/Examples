@@ -15,7 +15,13 @@ namespace ConsoleHost
             using (ServiceHost host = new ServiceHost(typeof(WillWcfService)))
             {
                 host.Open();
-                Console.WriteLine("Host started @" + DateTime.Now.ToString()); 
+                Console.WriteLine("Host WillWcfService started @" + DateTime.Now.ToString()); 
+            }
+
+            using (ServiceHost host = new ServiceHost(typeof(JudyWcfService)))
+            {
+                host.Open();
+                Console.WriteLine("Host JudyWcfService started @" + DateTime.Now.ToString());
             }
         }
     }

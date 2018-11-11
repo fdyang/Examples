@@ -5,6 +5,9 @@
         xmlns:local="clr-namespace:MainWillWindow"
         xmlns:View="clr-namespace:FolderBrowser.View;assembly=FolderBrowser"
         xmlns:View1="clr-namespace:DataGridOperation.View;assembly=DataGridOperation"
+  
+        xmlns:EnhancedUserControl="clr-namespace:EnhancedUserControl;assembly=EnhancedUserControl"
+        xmlns:View2="clr-namespace:EnhancedUserControl.View;assembly=EnhancedUserControl"
         x:Class="MainWillWindow.MainWindow"
         mc:Ignorable="d"
         Title="MainWillWindow"
@@ -18,10 +21,27 @@
                             Width="602" />
 
         <View1:DataGridOperationView HorizontalAlignment="Left"
-                                     Height="131"
-                                     Margin="0,65,0,0"
+                                     Height="132"
+                                     Margin="10,58,0,0"
                                      VerticalAlignment="Top"
-                                     Width="602" />
+                                     Width="654" />
+
+
+
+    
+
+        <View2:AutoSuggestComboBox HorizontalAlignment="Left"
+                                   Height="44"
+                                   Margin="187,208,0,0"
+                                   VerticalAlignment="Top"
+                                   Width="331" />
+        <View2:DateTimePickerView HorizontalAlignment="Left"
+                                  Height="100"
+                                  Margin="57,208,0,0"
+                                  VerticalAlignment="Top"
+                                  Width="100" />
+
+
 
     </Grid>
 </Window>
