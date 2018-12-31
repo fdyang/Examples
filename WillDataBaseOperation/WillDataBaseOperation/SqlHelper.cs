@@ -10,9 +10,14 @@ namespace WillDataBaseOperation
 {
     public class SqlHelper
     {
-        //连接字符串dh_web
+        //连接字符串dh_web => need to modify for specified pc. 
         //static string strConn = @"Data Source=MININT-LASOQ3U;Initial Catalog=KingPro;User ID=FAREAST\wiyan;Password=2wertyui87654#"; 
-        static string strConn = @"Data Source=MININT-LASOQ3U;Initial Catalog=KingPro;Integrated Security = true";
+
+         
+        static string strConn = @"Data Source=10.28.60.51;Initial Catalog=KingPro;Integrated Security=true";
+
+        // Debug !! 
+        //static string strConn = @"Data Source=ss;Initial Catalog=KingPro;Integrated Security = true";
 
         #region 执行查询，返回DataTable对象-----------------------
 
@@ -319,14 +324,17 @@ namespace WillDataBaseOperation
 
 
         /// <summary>
-        /// 往数据库中批量插入数据, Column name must match. 
+        /// 往数据库中批量插入数据, Column name must match.
         /// </summary>
         /// <param name="sourceDt">数据源表</param>
         /// <param name="targetTable">服务器上目标表</param>
-        public static void BulkToDB(DataTable sourceDt, string targetTable)
+        /// <param name="timeout">The timeout.</param>
+        public static void BulkToDB(DataTable sourceDt, string targetTable, TimeSpan timeout)
         {
             SqlConnection conn = new SqlConnection(strConn);
+            
             SqlBulkCopy bulkCopy = new SqlBulkCopy(conn);   //用其它源的数据有效批量加载sql server表中
+            bulkCopy.BulkCopyTimeout = (int)timeout.TotalSeconds; 
             bulkCopy.DestinationTableName = targetTable;    //服务器上目标表的名称
             bulkCopy.BatchSize = sourceDt.Rows.Count;   //每一批次中的行数
 
@@ -340,12 +348,14 @@ namespace WillDataBaseOperation
             {
                 conn.Open();
                 if (sourceDt != null && sourceDt.Rows.Count != 0)
+                {
                     bulkCopy.WriteToServer(sourceDt);   //将提供的数据源中的所有行复制到目标表中
+                }
             }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            //catch (Exception ex)
+            //{
+            //    throw ex;
+            //}
             finally
             {
                 conn.Close();

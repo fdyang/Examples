@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterProcessSync", "InterPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedUserControl", "DataTimePicker\EnhancedUserControl.csproj", "{449F961A-B985-410B-882B-61D87275675B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationUpgrader", "ApplicationUpgrader\ApplicationUpgrader.csproj", "{E8AD9ABF-8F7A-48D8-895E-872AD4C64F5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{449F961A-B985-410B-882B-61D87275675B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{449F961A-B985-410B-882B-61D87275675B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{449F961A-B985-410B-882B-61D87275675B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AD9ABF-8F7A-48D8-895E-872AD4C64F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AD9ABF-8F7A-48D8-895E-872AD4C64F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AD9ABF-8F7A-48D8-895E-872AD4C64F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AD9ABF-8F7A-48D8-895E-872AD4C64F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

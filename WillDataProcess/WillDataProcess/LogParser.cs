@@ -11,7 +11,6 @@ namespace WillDataProcess
 {
     public class LogParser
     {
-
         public LogParser()
         {
 

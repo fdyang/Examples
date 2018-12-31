@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ViewModel\AutoSuggestComboBoxViewModel.cs" />
     <Compile Include="ViewModel\DateTimePickerViewModel.cs" />
+    <Compile Include="ViewModel\LoggerListBoxViewModel.cs" />
     <Compile Include="View\AutoSuggestComboBox.xaml.cs">
       <DependentUpon>AutoSuggestComboBox.xaml</DependentUpon>
     </Compile>
@@ -53,6 +54,9 @@
       <DependentUpon>DateTimePickerView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\LoggerListBox.xaml.cs">
+      <DependentUpon>LoggerListBox.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Include="View\AutoSuggestComboBox.xaml">
@@ -60,6 +64,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\DateTimePickerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoggerListBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

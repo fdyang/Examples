@@ -44,12 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connected Services\JudyWcfServiceReference\Reference.cs">
+    <Compile Include="Connected Services\ServerChatServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Connected Services\WillWcfServiceReference\Reference.cs">
+    <Compile Include="Connected Services\WillServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -59,18 +59,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\JudyWcfServiceReference\service.wsdl" />
-    <None Include="Connected Services\JudyWcfServiceReference\service.xsd">
+    <None Include="Connected Services\ServerChatServiceReference\service.wsdl" />
+    <None Include="Connected Services\ServerChatServiceReference\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\JudyWcfServiceReference\service1.xsd">
+    <None Include="Connected Services\ServerChatServiceReference\service1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\WillWcfServiceReference\service.wsdl" />
-    <None Include="Connected Services\WillWcfServiceReference\service.xsd">
+    <None Include="Connected Services\WillServiceReference\service.wsdl" />
+    <None Include="Connected Services\WillServiceReference\service.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\WillWcfServiceReference\service1.xsd">
+    <None Include="Connected Services\WillServiceReference\service1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -78,29 +78,35 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\JudyWcfServiceReference\" />
-    <WCFMetadataStorage Include="Connected Services\WillWcfServiceReference\" />
+    <WCFMetadataStorage Include="Connected Services\ServerChatServiceReference\" />
+    <WCFMetadataStorage Include="Connected Services\WillServiceReference\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WillWcfServiceReference\configuration91.svcinfo" />
+    <ProjectReference Include="..\WcfServiceLibrary\WcfServiceLibrary.csproj">
+      <Project>{3331c6cc-9a34-4b3e-9527-59f8b83a796a}</Project>
+      <Name>WcfServiceLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WillWcfServiceReference\configuration.svcinfo" />
+    <None Include="Connected Services\ServerChatServiceReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\WillWcfServiceReference\Reference.svcmap">
+    <None Include="Connected Services\ServerChatServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServerChatServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\JudyWcfServiceReference\configuration91.svcinfo" />
+    <None Include="Connected Services\WillServiceReference\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\JudyWcfServiceReference\configuration.svcinfo" />
+    <None Include="Connected Services\WillServiceReference\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\JudyWcfServiceReference\Reference.svcmap">
+    <None Include="Connected Services\WillServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

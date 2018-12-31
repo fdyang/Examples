@@ -5,13 +5,12 @@
         xmlns:local="clr-namespace:MainWillWindow"
         xmlns:View="clr-namespace:FolderBrowser.View;assembly=FolderBrowser"
         xmlns:View1="clr-namespace:DataGridOperation.View;assembly=DataGridOperation"
-  
         xmlns:EnhancedUserControl="clr-namespace:EnhancedUserControl;assembly=EnhancedUserControl"
         xmlns:View2="clr-namespace:EnhancedUserControl.View;assembly=EnhancedUserControl"
         x:Class="MainWillWindow.MainWindow"
         mc:Ignorable="d"
         Title="MainWillWindow"
-        Height="450"
+        Height="615.5"
         Width="800">
     <Grid>
 
@@ -21,14 +20,14 @@
                             Width="602" />
 
         <View1:DataGridOperationView HorizontalAlignment="Left"
-                                     Height="132"
                                      Margin="10,58,0,0"
-                                     VerticalAlignment="Top"
-                                     Width="654" />
+                                     Width="654"
+                                     Height="132"
+                                     VerticalAlignment="Top" />
 
 
 
-    
+
 
         <View2:AutoSuggestComboBox HorizontalAlignment="Left"
                                    Height="44"
@@ -40,6 +39,10 @@
                                   Margin="57,208,0,0"
                                   VerticalAlignment="Top"
                                   Width="100" />
+        <View2:LoggerListBox Name="Logger"
+                        HorizontalAlignment="Left"
+                             Margin="0,234,0,-87.5"
+                             Width="632" />
 
 
 

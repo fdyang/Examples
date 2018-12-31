@@ -40,7 +40,7 @@ namespace DatabaseOperationUnitTest
             }
             table.Rows.Add(row);
 
-            SqlHelper.BulkToDB(table, "dbo.ServerLog"); 
+            SqlHelper.BulkToDB(table, "dbo.ServerLog", TimeSpan.FromSeconds(30)); 
         }
     }
 }

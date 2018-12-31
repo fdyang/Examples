@@ -25,9 +25,15 @@ namespace DataProcessTest
 
             foreach(DataRow row in result.Rows)
             {
-                foreach(string colName in colNames)
+                foreach (string colName in colNames)
                 {
-                    Debug.Write(row[colName].ToString());
+                    string content = row[colName].ToString();
+                    if (colName == "File Name")
+                    {
+                        content = ParserHelper.ConvertHexStringToNormalChineseString(content); 
+                    }
+
+                    Debug.Write(content);
                     Debug.Write(",");
                     Debug.Write(Environment.NewLine); 
                 }
